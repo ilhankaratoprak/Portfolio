@@ -7,17 +7,12 @@
   padding: 0;
 }
 
-body {
-  font-family: "Poppins", sans-serif;
-}
 
 html {
   scroll-behavior: smooth;
 }
 
-p {
-  color: rgb(85, 85, 85);
-}
+
 
 /* TRANSITION */
 
@@ -179,6 +174,25 @@ section {
 
 .section__pic-container {
   display: flex;
+}
+.profile-pic{
+  border-radius: 500px;
+
+}
+
+#tableo_img {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.section__tableo-container {
+  display: flex;
+}
+
+.tableo_img{
+  height: 80%;
+  width: 80%;
 }
 
 .section__text {

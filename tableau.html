@@ -3,9 +3,233 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tableao</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="stylesheet" href="image.css" />
+
 </head>
 <body>
-    
+
+    <nav id="desktop-nav">
+        <div class="logo">Ilhan Karatoprak</div>
+        <div>
+          <ul class="nav-links">
+       
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/powerbi.html">PowerBI</a></li>
+            <li><a href="/excel.html">Tableau</a></li>
+
+
+          </ul>
+        </div>
+      </nav>
+
+      <section id="tableo_img">
+        <div class="section__tableo-container">
+           
+          <img
+            class="tableo_img"
+            src="./assets/Tableau.webp"
+            alt="Ilhan profile picture"
+          />
+        </div>
+        <div class="section__text">
+          <h1 class="title">Tableau Projects</h1>
+          <p class="section__text__p2">Welcome to my Tableau Projects page! Here, you can explore the various data visualization projects I have created. Click on each project to view detailed explanations and insights. </p>
+            
+          
+        </div>
+      </section>
+      <p class="heading">CSS Gallery</p>
+      <div class="gallery-image">
+        <div class="img-box" onclick="openModal('modal1')">
+          
+          <img src="/assets/Car Sales Report.png" alt=""  
+          />
+          <div class="transparent-box">
+            <div class="caption">
+              <p>CAR SALES REPORT</p>
+            </div>
+          </div> 
+        </div>
+        <div id="modal1" class="modal">
+            <div class="modal-content">
+              <span class="close" onclick="closeModal('modal1')">&times;</span>
+              <h3>Car Sales Report</h3>
+              <p>
+                This dashboard is designed to provide insights into the current year's (CY) car sales performance. It includes the following key analyses:
+              </p>
+              <ul>
+                <li><b>Weekly Sales Trend:</b> Shows the week-by-week changes in car sales, highlighting seasonal patterns and trends over time.</li>
+                <li><b>CY Total Sales by Body Style:</b> Displays the total number of cars sold, broken down by body style, including Saloon, SUV, Hatchback, and others.</li>
+                <li><b>CY Total Sales by Colour:</b> Analyses the distribution of car sales based on colour preferences, highlighting the most popular colours among buyers.</li>
+                <li><b>CY Cars Sold by Dealer Region:</b> Breaks down car sales by different regions and dealerships, identifying areas with higher sales activity.</li>
+                <li><b>Company-wise Sales Trend:</b> Compares the sales performance of different car manufacturers over time.</li>
+              </ul>
+              <a href="https://public.tableau.com/app/profile/ilhan.karatoprak/viz/CarSalesProject_17248752466070/Dashboard1" target="_blank">TABLEAU PROJECT LINK</a>
+
+            </div>
+          </div>
+        <div class="img-box" onclick="openModal('modal2')">
+          <img src="/assets/HR Analystics Report.png" alt="" />
+          <div class="transparent-box">
+            <div class="caption">
+              <p>HR ANALYSTICS REPORT</p>
+            </div>
+          </div>
+        </div>
+        <div id="modal2" class="modal">
+            <div class="modal-content">
+              <span class="close" onclick="closeModal('modal2')">&times;</span>
+              <h3>HR Analytics Report </h3>
+              <p>
+                This dashboard provides an in-depth analysis of key HR metrics, helping to understand workforce dynamics and improve decision-making in human resources. The dashboard includes the following key insights:              
+              </p>
+              <ul>
+                <li><b>Employee Count: </b> Total number of employees currently in the organisation.</li>
+                <li><b>Attrition Count and Rate: </b>Displays the total number of employees who have left the company and the attrition rate, offering insight into employee turnover.</li>
+                <li><b>Active Employees: </b>: The number of employees who are currently active within the organisation.</li>
+                <li><b>Average Age: </b>Displays the average age of the workforce.</li>
+                <li><b>Attrition by Gender: </b> Compares the sales performance of different car manufacturers over time.</li>
+                <li><b>Department-wise Attrition: </b> Breaks down the attrition rate across various departments to pinpoint which teams are experiencing the highest turnover.</li>
+                <li><b>Number of Employees by Age Group:</b>: Shows the distribution of employees across different age groups to highlight the age structure of the workforce.</li>
+                <li><b>Job Satisfaction Rating (by Job Role): </b>Provides an overview of employee job satisfaction ratings, grouped by different job roles.</li>
+                <li><b>Attrition by Education Field: </b>Analyses attrition rates based on the employees' educational background, helping to identify any trends by field of study.</li>
+                <li><b>Attrition Rate by Gender for Different Age Groups: Compares </b> Compares the attrition rate across different gender and age groups, helping to understand if specific demographics are more likely to leave the organisation.</li>
+              </ul>
+            
+              <a href="https://public.tableau.com/app/profile/ilhan.karatoprak/viz/HR1_project/HRANALYSTICSDASHBOARD" target="_blank">TABLEAU PROJECT LINK</a>
+
+            </div>
+          </div>
+        <div class="img-box" onclick="openModal('modal3')">
+          <img src="./assets/Pizza Sales Report1.png" alt="" />
+          <div class="transparent-box">
+            <div class="caption">
+              <p>PIZZA SALES</p>
+            </div>
+          </div>
+        </div>
+        <div id="modal3" class="modal">
+            <div class="modal-content">
+              <span class="close" onclick="closeModal('modal3')">&times;</span>
+              <h3>Pizza Sales Report </h3>
+              <p>
+                This Pizza Sales Report Dashboard provides a detailed analysis of pizza sales performance from 1st January 2015 to 31st December 2015. It presents insights into total revenue, average order value, total pizzas sold, and sales trends based on pizza categories and sizes. The dashboard aims to support decision-makers in understanding customer preferences, identifying the best and least-selling pizzas, and highlighting opportunities for growth based on time-based trends.
+                Key features of the dashboard include:
+
+              </p>
+              <ul>
+                <li><b>Revenue Summary:</b> Displays total revenue for the year and the contribution of different pizza categories and sizes.</li>
+                <li><b>Top and Bottom Performers:</b> Lists the best and least-selling pizzas by revenue, quantity sold, and total orders</li>
+                <li><b>Time-based Trends:</b>Highlights peak sales hours, busiest days, and weeks to help optimise operations during high-demand periods.</li>
+                <li><b>Sales by Pizza Category and Size:</b>Breaks down sales by different pizza types (e.g., Veggie, Chicken, Classic) and sizes (e.g., Large, Medium, Regular), helping to identify top-performing product categories.</li>
+              </ul>
+              </p>
+            This dashboard is designed to deliver actionable insights and assist in optimising inventory, menu choices, and promotional strategies to drive higher sales and customer satisfaction.
+              </p><br>
+              <a href="https://public.tableau.com/app/profile/ilhan.karatoprak/viz/PizzaSalesDashboard_17252773163580/BestLeastSellers" target="_blank">TABLEAU PROJECT LINK</a>
+
+            </div>
+          </div>
+        <div class="img-box" onclick="openModal('modal4')">
+          <img src="/assets/Road Accident Report.png" alt="" />
+          <div class="transparent-box">
+            <div class="caption">
+              <p>ROAD ACCIDENT REPORT</p>
+            </div>
+          </div> 
+        </div>
+        <div id="modal4" class="modal">
+            <div class="modal-content">
+              <span class="close" onclick="closeModal('modal4')">&times;</span>
+              <h3>Road Accident Project</h3><br>
+              <p>
+                This Road Accident Dashboard provides a comprehensive analysis of road accident data. 
+                The dashboard aims to deliver in-depth insights into the frequency and severity of road accidents, 
+                thereby assisting in the development of safety strategies. It encompasses key metrics such as total accidents, 
+                casualty figures, accident severity, weather conditions, and the impact of road surfaces.
+              </p><br>
+              <p>
+              This analysis showcases the contributions of different vehicle types to accidents, 
+              as well as the distribution of slight and serious casualties. Furthermore, it evaluates the 
+              role of weather conditions (such as rain, snow, and fog) in the occurrence of accidents.
+              <p><br>
+              <p>
+                The dashboard enables users to:
+              </p>
+              <ul>
+                <li><b>Accident Trends:</b> Understand the changes in accident numbers over time, providing insights into trends and patterns.</li>
+                <li><b>Casualty Figures: </b>Analyse the number of casualties resulting from accidents, highlighting the need for safety measures.</li>
+                <li><b>Analysis by Road Surface and Weather Conditions: </b>Examine the impact of various road surfaces and weather conditions on accident occurrences, facilitating the identification of strategies to enhance safety.</li><br>
+              <p>
+                This dashboard aims to provide valuable insights for road safety professionals and policymakers, helping them make informed decisions to reduce accidents and improve road safety.
+
+              </p>
+              </ul>
+              <a href="https://public.tableau.com/app/profile/ilhan.karatoprak/viz/AccidentsProject_17246164011210/Dashboard1" target="_blank">TABLEAU PROJECT LINK</a>
+
+            </div>
+          </div>
+        <div class="img-box" onclick="openModal('modal5')">
+          <img src="assets/The Wealth of Nations.png" alt="" />
+          <div class="transparent-box">
+            <div class="caption">
+              <p>THE WEALTH OF NATIONS</p>
+            </div>
+          </div> 
+        </div>
+        <div id="modal5" class="modal">
+            <div class="modal-content">
+              <span class="close" onclick="closeModal('modal5')">&times;</span>
+              <h3>
+                The Wealth of Nations Report 
+              </h3>
+              <p>
+                This report provides a comprehensive analysis aimed at understanding the economic welfare levels and quality of life in various countries. Data on life expectancy at birth, GDP per capita, and technology usage are employed to examine the wealth and social dynamics of nations.
+              </p><br>
+              <P>
+                Key insights include high life expectancy, advanced healthcare systems, and significant indicators of economic performance. Furthermore, the increase in digitalisation and access to technology is directly linked to the economic growth of countries.
+              </P><br>
+              <p>
+                This dashboard serves as a valuable resource for researchers and policymakers, offering insights that assist in the development of economic strategies.
+              </p><br>
+               <a href="https://public.tableau.com/app/profile/ilhan.karatoprak/viz/TheTop20RankedCountries-2/SmartphoneUsersbyCountry" target="_blank">TABLEAU PROJECT LINK 1</a><br><br>
+               <a href="https://public.tableau.com/app/profile/ilhan.karatoprak/viz/TheTop20RankedCountries-1/TheTop20RankedCounties" target="_blank">TABLEAU PROJECT LINK 2</a>
+            </div>
+          </div>
+      </div>
+      <script src="script.js"></script>
+      <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img
+              src="./assets/email.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a href="mailto:examplemail@gmail.com">ilhanthedata@outlook.com</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="./assets/linkedin.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p>
+              <a href="https://www.linkedin.com/in/ilhan-karatoprak-329a1427a/" target="_blank"
+                >LinkedIn</a
+              >
+            </p>
+          </div>
+        </div>
+      </section>
+      <footer>
+ 
+        <p>Copyright &#169; 2024 Ilhan Karatoprak. All Rights Reserved.</p>
+      </footer>
 </body>
 </html>

@@ -3,9 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tableao</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="stylesheet" href="image.css" />
+
 </head>
 <body>
-    
+
+    <nav id="desktop-nav">
+        <div class="logo">Ilhan Karatoprak</div>
+        <div>
+          <ul class="nav-links">
+       
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/tableau.html">Tableau</a></li>
+            <li><a href="/excel.html">Excel</a></li>
+
+
+          </ul>
+        </div>
+        
+      </nav>
+
+      <section id="tableo_img">
+        <div class="section__tableo-container">
+           
+          <img
+            class="tableo_img"
+            src="./assets/Logo-Power-BI.png"
+            alt="Ilhan profile picture"
+          />
+        </div>
+        <div class="section__text">
+          <h1 class="title">Power BI Projects</h1>
+          <p class="section__text__p2">Welcome to my Power BI Projects page! Here, you can explore the various data visualization projects I have created. Click on each project to view detailed explanations and insights. </p>
+            
+          
+        </div>
+      </section>
+      <p class="heading">CSS Gallery</p>
+      <div class="gallery-image">
+        <div class="img-box" onclick="openModal('modal1')">
+          
+          <img src="/assets/HR analytics dashboard.png" alt=""  
+          />
+          <div class="transparent-box">
+            <div class="caption">
+              <p>HR ANALYTICS DASHBOARD</p>
+            </div>
+          </div> 
+        </div>
+        <div id="modal1" class="modal">
+            <div class="modal-content">
+              <span class="close" onclick="closeModal('modal1')">&times;</span>
+              <h3>HR Analytics Dashboard</h3>
+              <p>
+                The HR Analytics Dashboard is designed to provide insightful metrics about the workforce within an organization. It enables HR professionals to monitor employee dynamics, attrition rates, and job satisfaction levels effectively.              </p>
+              <ul>
+                <li><b>Employee Metrics: </b> Displays the total number of employees and active workforce, allowing for quick assessments of workforce size and engagement.</li>
+                <li><b>Attrition Analysis: </b>Offers a comprehensive view of employee turnover, segmented by departments and age groups. This helps identify areas with higher attrition rates and potential underlying issues.</li>
+                <li><b>Job Satisfaction Ratings: </b>: Highlights employee satisfaction across different roles, providing valuable insights for improving workplace culture and retention strategies.</li>
+                <li><b>Demographic Insights: </b> Analyses the workforce based on age and gender, aiding in understanding diversity and inclusivity within the organization.</li>
+              </ul>
+              <a href="https://app.powerbi.com/view?r=eyJrIjoiMWY4YTZmZjUtMjMwZi00ZTBmLTgzYjQtNjcyOTYyY2Y3NGEyIiwidCI6IjZlZmQwZjIwLTU3YzgtNDQ0Ny1iNTNmLTAwZDQ5OTJjYTUwYiJ9" target="_blank">POWER BI PROJECT LINK</a>
+              
+            </div>
+          </div>
+          </div>
+          <section id="contact">
+            <p class="section__text__p1">Get in Touch</p>
+            <h1 class="title">Contact Me</h1>
+            <div class="contact-info-upper-container">
+              <div class="contact-info-container">
+                <img
+                  src="./assets/email.png"
+                  alt="Email icon"
+                  class="icon contact-icon email-icon"
+                />
+                <p><a href="ilhanthedata@outlook.com">ilhanthedata@outlook.com</a></p>
+              </div>
+              <div class="contact-info-container">
+                <img
+                  src="./assets/linkedin.png"
+                  alt="LinkedIn icon"
+                  class="icon contact-icon"
+                />
+                <p>
+                  <a href="https://www.linkedin.com/in/ilhan-karatoprak-329a1427a/" target="_blank"
+                    >LinkedIn</a
+                  >
+                </p>
+              </div>
+            </div>
+          </section>
+          <footer>
+ 
+            <p>Copyright &#169; 2024 Ilhan Karatoprak. All Rights Reserved.</p>
+          </footer>
+      <script src="script.js"></script>
+
 </body>
 </html>
